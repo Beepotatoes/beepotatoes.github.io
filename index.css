@@ -1,0 +1,76 @@
+h1, h2
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+
+}
+
+.SitetitleText 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    align-self: center;
+    display: inline;
+    font-size: 35pt;
+    margin: 15px;
+}
+.logo
+{
+    background-image: url("images/LogoReg.png");
+    transition-duration: 0.5s;
+    background-size: 150px 100px;
+    width: 150px;
+    height: 100px;
+
+}
+.logo:hover
+{
+    background-image: url("images/LogoHover.png");
+    transition-duration: 0.5s;
+}
+body
+{
+    background-color: #323232;
+    margin: 0;
+}
+.navbar { 
+
+	display: flex;
+	
+    justify-content: center;
+	background: rgb(64,64,64);
+    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(69,69,69,1) 75%, rgba(80,80,80,1) 100%);
+	padding: 0px 10px;
+	border-bottom: 5px solid #FF8100;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #0004;
+
+}
+
+/*.navbar::before {
+	content: "";
+    background-image: url("images/walkin.png");
+	background-size: 200px 80px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+} */
+.Wrapper
+{
+    margin: 15% 0;
+    display: block;
+    text-align: center; 
+    align-self: center;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #fff2;
+}

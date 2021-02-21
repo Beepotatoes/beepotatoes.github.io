@@ -1,0 +1,50 @@
+.a
+{
+    background-color: #9146FF; 
+    border: 2px solid #9146FF;
+}
+.b
+{
+    background-color: #1d9bf0; 
+    border: 2px solid #1d9bf0;
+}
+.c
+{
+    background-color: #00adef; 
+    border: 2px solid #00adef;
+}
+.d
+{
+    background-color: #00aeef; 
+    border: 2px solid #00aeef;
+}
+.e
+{
+    background-color: #f00; 
+    border: 2px solid #f00;
+}
+a.btn
+{
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0px 0px 8px #0004;
+    
+    transition: 0.5s;
+}
+a.btn:hover
+{
+    transition: 0.05s;
+    background-color: #ffffff; 
+    color: #151515;
+    transform: translateY(1px);
+    cursor: pointer;
+    
+}
