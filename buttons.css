@@ -41,7 +41,7 @@ a.btn
 }
 a.btn:hover
 {
-    transition: 0.05s;
+    /* transition: 0.05s; */
     background-color: #ffffff; 
     color: #151515;
     transform: translateY(1px);
