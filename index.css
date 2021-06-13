@@ -1,12 +1,20 @@
-h1, h2
+h1
 {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     font-style: normal;
     color: white;
     text-align: center;
     font-size: 12pt;
 
+}
+h2
+{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
 }
 
 .SitetitleText 
@@ -29,6 +37,16 @@ h1, h2
     height: 100px;
 
 }
+li
+{
+
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+
+}
 .logo:hover
 {
     background-image: url("images/LogoHover.png");
@@ -36,7 +54,9 @@ h1, h2
 }
 body
 {
-    background-color: #323232;
+    background-image:url("images/BG-Tile.png");
+    background-repeat: repeat;
+    background-size: 128px;
     margin: 0;
 }
 .navbar { 
@@ -73,4 +93,11 @@ body
     padding: 25px;
     overflow: hidden;
     background-color: #fff2;
+}
+.Content
+{
+
+    display: gird;
+
+
 }
