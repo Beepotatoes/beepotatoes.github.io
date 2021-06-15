@@ -1,20 +1,47 @@
-h1
-{
 
-    font-family: Roboto;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    font-size: 12pt;
-
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
 }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #555555;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
 h2
 {
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     color: white;
+}
+p
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    font-size: 15pt;
+
+}
+.SectionHLight
+{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.12368697478991597) 30%, rgba(255,255,255,0) 100%);
 }
 
 .SitetitleText 
