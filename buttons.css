@@ -27,7 +27,6 @@
 {
     background-color: #FF8100; 
     border: 2px solid #FF8100;
-
 }
 a.btn
 {
@@ -38,11 +37,11 @@ a.btn
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.3em;
     border-radius: 8px;
     margin: 5px;
     box-shadow: 0px 0px 8px #0004;
-    
+
     transition: 0.5s;
 }
 a.btn:hover
