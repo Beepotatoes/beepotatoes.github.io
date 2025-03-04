@@ -6,8 +6,8 @@
 }
 .b
 {
-    background-color: #1d9bf0; 
-    border: 2px solid #1d9bf0;
+    background-color: #1185FE; 
+    border: 2px solid #1185FE;
     color: rgb(255, 255, 255);
 }
 .c
@@ -28,17 +28,10 @@
     border: 2px solid #f00;
     color: rgb(255, 255, 255);
 }
-.f
-{
-    background-color: #00e59b; 
-    border: 2px solid #00e59b;
-    color: rgb(255, 255, 255);
-
-}
 .g
 {
-    background-color: #3d92d0; 
-    border: 2px solid #3d92d0;
+    background-color: #ff5f5f; 
+    border: 2px solid #ff5f5f;
     color: rgb(255, 255, 255);
 }
 .h
@@ -51,12 +44,6 @@
 {
     background-color: #35465C; 
     border: 2px solid #35465C;
-    color: #FFFFFF;
-}
-.j
-{
-    background-color: rgb(131, 37, 79); 
-    border: 2px solid rgb(131, 37, 79);
     color: #FFFFFF;
 }
 
